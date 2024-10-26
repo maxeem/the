@@ -1,0 +1,19 @@
+/* norexx */
+
+'set compat Ispf Ispf Ispf'
+
+'set case mixed ignore ignore ignore mixed mixed'
+
+'set numb on'
+
+'set reserved 1 Function Keys: f2=add line, f3=qquit, f5=spltjoin, f12=dir edit'
+
+'define f2 sos lineadd'
+
+'define f3 qquit'
+
+'define f5 spltjoin' /* split or join at cursor focus */
+
+'define f12 sos edit' /* edit file from directory list' */
+
+'set reprofile on' /* use this profile for each file in a chain */
