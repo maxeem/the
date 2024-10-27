@@ -6,7 +6,7 @@
 
 'set numb on'
 
-'set reserved 1 Function Keys: f2=add line, f3=qquit, f5=spltjoin, f12=dir edit'
+'set reserved 1 Function Keys: f2=add line, f3=qquit, f5=spltjoin, f7 scroll-up, f8 scroll-down'
 
 'define f2 sos lineadd'
 
